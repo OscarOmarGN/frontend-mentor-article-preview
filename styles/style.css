@@ -166,7 +166,7 @@ button{
   cursor: pointer;
 }
 
-a{
+.a{
   text-decoration: none;
   display: flex;
 }
@@ -176,13 +176,10 @@ a:visited{
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   font-size: 1.3rem;
-  position: absolute;
-  bottom: 1.5rem;
+  text-align: center;
+  margin-bottom: .5rem;
 }
 .footer a {
   color: hsl(228, 45%, 44%);
@@ -221,6 +218,13 @@ footer {
   }
 
   .seccion-compartir{
+    width: 328px;
+    margin: 0;
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+
+  .menu-compartir{
     margin: 0;
     margin-top: 15px;
     justify-content: space-between;
@@ -228,6 +232,10 @@ footer {
 
   .foto-michelle{
     margin-right: 18px;
+  }
+
+  .icono-compartir{
+    margin-right: 3rem;
   }
 
 }
